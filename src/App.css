@@ -10,6 +10,17 @@ span {
   height: 406.2px;
 }
 
+.login {
+  height: 100vh;
+  background-color: #eceff1;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none !important;
+  font-size: 11px;
+}
+
 @media only screen and (max-width: 769px) {
   .product {
     width: 308px;
@@ -17,7 +28,7 @@ span {
   .select-item {
     width: 300px;
   }
-  .search{
+  .search {
     align-items: center !important;
     justify-content: center !important;
     flex: content;
@@ -30,6 +41,4 @@ span {
   .select-item {
     width: 300px;
   }
- 
 }
-
