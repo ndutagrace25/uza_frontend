@@ -19,7 +19,9 @@ class Login extends Component {
               placeholder="Password"
             />
             <div className="d-grid gap-2">
-              <button className="btn btn-success">Login</button>
+              <Link className="btn btn-success" to="/admin/menu">
+                Login
+              </Link>
             </div>
           </div>
           <Link to="/admin/reset-password" className="link mt-2">

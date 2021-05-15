@@ -20,6 +20,18 @@ span {
   text-decoration: none !important;
   font-size: 11px;
 }
+.link-menu {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.table {
+  font-size: 0.75em;
+}
+
+.button-text {
+  font-size: 0.75em;
+}
 
 @media only screen and (max-width: 769px) {
   .product {
